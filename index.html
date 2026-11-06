@@ -1,0 +1,495 @@
+<!doctype html>
+<!-- INFO1005 Website Design — Module 3.1 completed Muzhda Raoufy example -->
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Muzhda Raoufy accounting and business student portfolio">
+  <meta name="author" content="Muzhda Raoufy">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <meta name="theme-color" content="#10283b">\n  <link rel="preconnect" href="https://fonts.googleapis.com">\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Muzhda Raoufy | Accounting and Business Portfolio</title>
+
+  <!-- FAVICON — already supplied. Later replace these with your own favicon files. -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your CSS comes last so it can style Bootstrap components. -->
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>\n<a class="skip-link" href="#top">Skip to main content</a>
+
+
+<nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Main navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top" aria-label="Muzhda Raoufy home">
+      <img src="img/accounting-logo.svg" alt="Accounting calculator logo" class="brand-icon rounded-circle">
+      <span class="d-none d-sm-inline">Muzhda Raoufy</span>
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#process">Learning Journey</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="pdf/muzhda_raoufy_resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+
+      
+      <div class="form-check form-switch theme-switch">
+        <input class="form-check-input" type="checkbox" role="switch"
+               id="themeSwitch" aria-label="Toggle dark mode">
+        <label class="form-check-label" for="themeSwitch">Dark</label>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  
+  <header class="container hero-section">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <p class="eyebrow">Business · accounting · professional development</p>
+        <h1>Muzhda Raoufy</h1>\n        <h2 class="hero-subtitle">Aspiring Accountant</h2>
+        <p class="lead-copy">I am studying a Diploma in Business at Western Sydney University. I chose this area because I enjoy learning how businesses work, especially the financial side. My goal is to build on this study and work towards a career in accounting.</p>
+        <p class="d-none d-md-block">Alongside my studies, I work as a Team Member at Woolworths Group's Customer Fulfilment Centre in Auburn. Managing work and study has helped me practise staying organised and working with other people.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-brand" href="#portfolio">View my work</a>
+          <a class="btn btn-ghost" href="pdf/muzhda_raoufy_resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 text-center">
+        <img src="img/accounting_workspace.jpg" class="img-fluid hero-img" alt="Financial report and calculator on a desk">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT — cards are review from Module 2.2 / 2.3 -->
+  <section class="container section-block" id="aboutme">
+    <div class="section-intro">
+      <p class="eyebrow">Profile snapshot</p>
+      <h2>About Me</h2>
+      <p>A little about what I am studying, the work experience I have gained and the career I am working towards.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/business_study.jpg" class="card-img-top" alt="Business study desk and notebook">
+          <div class="card-body">
+            <h3 class="card-title">Introducing Me</h3>
+            <p class="card-text">I am a motivated business student interested in <span class="standout">accounting</span>, finance and professional development.</p>
+            <p class="card-text d-none d-lg-block">I am building my knowledge through university study and practical experience.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/business_study.jpg" class="card-img-top" alt="Business study materials">
+          <div class="card-body">
+            <h3 class="card-title">Education</h3>
+            <p class="card-text">Diploma in Business — Western Sydney University (currently studying).</p>
+            <ul>
+              <li>Business foundations</li>
+              <li>Business and economics learning</li>
+              <li>Digital and academic skills</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/digital_work.jpg" class="card-img-top" alt="Laptop and digital work desk">
+          <div class="card-body">
+            <h3 class="card-title">Skills</h3>
+            <p class="card-text">I am developing communication, teamwork, organisation and attention-to-detail skills through study and work.</p>
+            <div class="skill-meter"><span style="width:88%">Teamwork and communication</span></div>
+            <div class="skill-meter"><span style="width:76%">Organisation and time management</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container section-block" id="portfolio">
+    <div class="section-intro">
+      <p class="eyebrow">Portfolio presentation</p>
+      <h2>My Projects and Learning</h2>
+      <p>Here I have included my business studies, my INFO1005 website project and my current workplace experience. I will add examples of other completed assignments as I build my portfolio.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/accounting_workspace.jpg" class="card-img-top" alt="Financial report and calculator">
+          <div class="card-body">
+            <h3 class="card-title">Business Studies</h3>
+            <p class="card-text">My Diploma in Business is helping me understand how organisations operate and how different areas of a business connect. I will add a completed assignment example here.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/accounting_workspace.jpg"
+                    data-project-title="Business Studies"
+                    data-project-description="Add the name of a business assignment you have completed, what the task asked you to do and one or two things you learned.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/digital_work.jpg" class="card-img-top" alt="Laptop and digital work">
+          <div class="card-body">
+            <h3 class="card-title">Accounting Learning</h3>
+            <p class="card-text">Accounting is the career area I would like to move into. I am interested in learning how financial information is prepared and used to support business decisions. I will add relevant coursework here as I complete it.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/digital_work.jpg"
+                    data-project-title="Accounting Learning"
+                    data-project-description="Add an accounting or finance task only after you have completed it. Briefly explain the task and what you learned.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/business_study.jpg" class="card-img-top" alt="Business study books and notebook">
+          <div class="card-body">
+            <h3 class="card-title">Digital Skills</h3>
+            <p class="card-text">For INFO1005, I have been learning how HTML, CSS and Bootstrap can be used to build a website. This portfolio is part of that learning. I will include examples of the code and design work I completed.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/business_study.jpg"
+                    data-project-title="Digital Skills"
+                    data-project-description="Add a screenshot of a document, spreadsheet or presentation that you personally created for your studies.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col d-none d-sm-block">
+        <article class="card h-100 portfolio-card">
+          <img src="img/accounting_workspace.jpg" class="card-img-top" alt="Financial report and calculator">
+          <div class="card-body">
+            <h3 class="card-title">Workplace Experience</h3>
+            <p class="card-text">I work as a Team Member at Woolworths Group's Customer Fulfilment Centre in Auburn. I started on 16 February 2026. This role gives me experience working as part of a team. I will add my specific duties and examples of my work here.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/accounting_workspace.jpg"
+                    data-project-title="Workplace Experience"
+                    data-project-description="I started as a Team Member at Woolworths Group Customer Fulfilment Centre in Auburn on 16 February 2026. Add your actual duties and a real example from work here.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col d-none d-md-block">
+        <article class="card h-100 portfolio-card">
+          <img src="img/business_study.jpg" class="card-img-top" alt="Business study materials">
+          <div class="card-body">
+            <h3 class="card-title">Professional Development</h3>
+            <p class="card-text">Balancing my Diploma in Business with my job has taught me to plan my time and keep up with different responsibilities. I am still developing these skills as I gain more experience.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/business_study.jpg"
+                    data-project-title="Professional Development"
+                    data-project-description="Add a real example of a training activity, achievement or professional goal.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col d-none d-lg-block">
+        <article class="card h-100 portfolio-card">
+          <img src="img/digital_work.jpg" class="card-img-top" alt="Laptop and digital work">
+          <div class="card-body">
+            <h3 class="card-title">Resume Website</h3>
+            <p class="card-text">I created this portfolio as part of INFO1005 Website Design. It brings together my study, work experience and career goal in one place. The project has also given me practice with HTML, CSS and Bootstrap.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/digital_work.jpg"
+                    data-project-title="Resume Website"
+                    data-project-description="Describe the parts of the website you personally designed, coded, tested and improved.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ONE reusable modal -->
+  <div class="modal fade" id="projectLightbox" tabindex="-1"
+       aria-labelledby="projectLightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title" id="projectLightboxLabel">Project title</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/accounting_workspace.jpg" class="img-fluid modal-project-img"
+               id="modalProjectImage" alt="Selected accounting and business portfolio project">
+          <p id="modalProjectDescription" class="modal-description">Project description.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACCORDION — review from Module 2.3 -->
+  <section class="container section-block" id="services">
+    <div class="section-intro">
+      <p class="eyebrow">Interactive content</p>
+      <h2>Professional Strengths</h2>
+      <p>These expandable sections introduce strengths that I am developing through study and workplace experience.</p>
+    </div>
+
+    <div class="accordion services-accordion" id="servicesAccordion">
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceOne"
+                  aria-expanded="true" aria-controls="serviceOne">
+            Teamwork and collaboration
+          </button>
+        </h3>
+        <div id="serviceOne" class="accordion-collapse collapse show" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">I work alongside other team members and understand the importance of communicating clearly and helping the team complete its tasks.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceTwo"
+                  aria-expanded="false" aria-controls="serviceTwo">
+            Organisation and time management
+          </button>
+        </h3>
+        <div id="serviceTwo" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">I need to plan around both my study and work commitments. I use this experience to practise managing my time and keeping track of what needs to be done.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceThree"
+                  aria-expanded="false" aria-controls="serviceThree">
+            Communication and learning
+          </button>
+        </h3>
+        <div id="serviceThree" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">I try to communicate respectfully, listen to instructions and ask questions when I need to understand something better.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container section-block d-none d-lg-block" id="process">
+    <div class="section-intro">
+      <p class="eyebrow">Desktop enhancement</p>
+      <h2>My Development Process</h2>
+      <p>My approach to developing knowledge and professional skills.</p>
+    </div>
+
+    <div id="processCarousel" class="carousel slide process-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/accounting_workspace.jpg" class="d-block w-100" alt="Learning and planning">
+          <div class="carousel-caption">
+            <h3>Learn</h3>
+            <p>Attend classes, review learning materials and understand the task requirements.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/digital_work.jpg" class="d-block w-100" alt="Practice and development">
+          <div class="carousel-caption">
+            <h3>Practise</h3>
+            <p>Apply new knowledge through assignments, workplace tasks and practical activities.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/business_study.jpg" class="d-block w-100" alt="Review and improve">
+          <div class="carousel-caption">
+            <h3>Improve</h3>
+            <p>Reflect on feedback, check my work and identify areas for improvement.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#processCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#processCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM — HTML + basic Bootstrap grid/form classes -->
+  <section class="container section-block" id="contactme">
+    <div class="row g-4 align-items-start">
+      <div class="col-12 col-lg-5">
+        <p class="eyebrow">Contact</p>
+        <h2>Contact Me</h2>
+        <p>Please use the contact details below to get in touch.</p>
+        <p class="d-none d-md-block">I welcome professional and learning opportunities.</p>
+        <p><strong>Email:</strong> <a href="mailto:muzhdaraoufy12@gmail.com">muzhdaraoufy12@gmail.com</a><br><strong>Phone:</strong> <a href="tel:0425825934">0425 825 934</a></p>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <form class="contact-form" id="contactForm">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="name" class="form-label">Your name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Your email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" autocomplete="email" required>
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label">Your message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-brand">Prepare email</button>
+              <p id="formStatus" class="form-status mt-2" role="status" aria-live="polite">This form opens your email application; it does not send or store messages on this website.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+    <p>&copy; Muzhda Raoufy. INFO1005 Website Design portfolio.</p>
+    <p class="social-links">
+      <a href="mailto:muzhdaraoufy12@gmail.com" aria-label="Email Muzhda"><i class="bi bi-envelope-fill"></i></a>
+      <a href="tel:0425825934" aria-label="Call Muzhda"><i class="bi bi-telephone-fill"></i></a>
+    </p>
+  </div>
+</footer>
+
+<!-- Bootstrap powers collapse, modal, accordion and carousel. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  const contactForm = document.querySelector('#contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!contactForm.reportValidity()) return;
+      const name = document.querySelector('#name').value.trim();
+      const email = document.querySelector('#email').value.trim();
+      const message = document.querySelector('#message').value.trim();
+      const subject = encodeURIComponent('Portfolio enquiry from ' + name);
+      const body = encodeURIComponent(message + '\n\nFrom: ' + name + '\nReply email: ' + email);
+      document.querySelector('#formStatus').textContent = 'Opening your email application. Please review and send the message there.';
+      window.location.href = 'mailto:muzhdaraoufy12@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  }
+\n</script>
+
+<script>
+  
+  const themeSwitch = document.querySelector('#themeSwitch');
+  const savedTheme = localStorage.getItem('muzhda-theme') || 'light';
+
+  document.documentElement.setAttribute('data-bs-theme', savedTheme);
+
+  if (themeSwitch) {
+    themeSwitch.checked = savedTheme === 'dark';
+
+    themeSwitch.addEventListener('change', function () {
+      const selectedTheme = this.checked ? 'dark' : 'light';
+
+      document.documentElement.setAttribute('data-bs-theme', selectedTheme);
+      localStorage.setItem('muzhda-theme', selectedTheme);
+    });
+  }
+
+  
+  const projectButtons = document.querySelectorAll('.open-lightbox');
+  const projectImage = document.querySelector('#modalProjectImage');
+  const projectTitle = document.querySelector('#projectLightboxLabel');
+  const projectDescription = document.querySelector('#modalProjectDescription');
+
+  projectButtons.forEach(function(button) {
+    button.addEventListener('click', function () {
+      projectImage.src = this.dataset.projectSrc;
+      projectImage.alt = this.dataset.projectTitle + ' full image';
+      projectTitle.textContent = this.dataset.projectTitle;
+      projectDescription.textContent = this.dataset.projectDescription;
+    });
+  });
+
+  
+
+  const contactForm = document.querySelector('#contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!contactForm.reportValidity()) return;
+      const name = document.querySelector('#name').value.trim();
+      const email = document.querySelector('#email').value.trim();
+      const message = document.querySelector('#message').value.trim();
+      const subject = encodeURIComponent('Portfolio enquiry from ' + name);
+      const body = encodeURIComponent(message + '\n\nFrom: ' + name + '\nReply email: ' + email);
+      document.querySelector('#formStatus').textContent = 'Opening your email application. Please review and send the message there.';
+      window.location.href = 'mailto:muzhdaraoufy12@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  }
+\n</script>
+
+</body>
+</html>
